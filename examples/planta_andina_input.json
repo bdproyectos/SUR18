@@ -1,0 +1,23 @@
+{
+  "annual_consumption_kwh": 480000,
+  "irradiation_kwh_m2_year": 2050,
+  "performance_ratio": 0.78,
+  "target_coverage_pct": 70,
+  "module_power_w": 550,
+  "module_voc": 49.9,
+  "module_vmp": 41.8,
+  "module_isc": 13.98,
+  "voc_temp_coeff_pct_c": -0.28,
+  "min_temp_c": 0,
+  "max_temp_c": 65,
+  "inverter_ac_kw": 100,
+  "inverter_max_dc_v": 1100,
+  "inverter_mppt_min_v": 200,
+  "inverter_mppt_max_v": 1000,
+  "available_area_m2": 3500,
+  "module_area_m2": 2.58,
+  "gcr": 0.55,
+  "dc_ac_ratio": 1.20,
+  "modules_per_row": 20,
+  "row_clearance_m": 0.6
+}

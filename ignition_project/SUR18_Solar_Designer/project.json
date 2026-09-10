@@ -1,0 +1,7 @@
+{
+  "title": "SUR18 Solar Designer",
+  "description": "Piloto C&I de cálculo y disposición fotovoltaica.",
+  "enabled": true,
+  "parent": "",
+  "inheritanceAllowed": true
+}

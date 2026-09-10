@@ -1,0 +1,12 @@
+{
+  "dc_kwp": 220.0,
+  "ac_kw": 200.0,
+  "module_count": 400,
+  "string_count": 20,
+  "modules_per_string": 20,
+  "inverter_count": 2,
+  "annual_energy_kwh": 351780.0,
+  "actual_coverage_pct": 73.29,
+  "layout_rows": 20,
+  "layout_columns": 20
+}
