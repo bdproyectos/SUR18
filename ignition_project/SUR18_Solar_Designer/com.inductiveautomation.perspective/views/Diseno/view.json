@@ -1,0 +1,10 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {"defaultSize": {"width": 1366, "height": 768}},
+  "root": {"type": "ia.container.flex", "meta": {"name": "root"}, "props": {"direction": "column", "style": {"backgroundColor": "#F4F7F5", "minHeight": "100vh", "padding": "28px", "gap": "18px"}}, "children": [
+    {"type": "ia.display.label", "meta": {"name": "Title"}, "position": {"basis": "46px"}, "props": {"text": "DISEÑO FOTOVOLTAICO", "style": {"color": "#0B5D3B", "fontSize": "28px", "fontWeight": 700}}},
+    {"type": "ia.display.label", "meta": {"name": "Input"}, "position": {"basis": "210px"}, "props": {"text": "Datos requeridos\n\n• Consumo anual, irradiación y performance ratio\n• Potencia, Voc, Vmp e Isc del módulo\n• Límites MPPT/DC y potencia AC del inversor\n• Temperaturas de diseño, superficie disponible y GCR", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #CFE2D7", "borderRadius": "10px", "fontSize": "16px", "padding": "22px", "whiteSpace": "pre-wrap"}}},
+    {"type": "ia.display.label", "meta": {"name": "Output"}, "position": {"grow": 1}, "props": {"text": "Motor instalado: project.sur18_pv.calculate(data)\n\nResultado: kWp DC, kW AC, módulos, strings, inversores, energía anual, cobertura, filas, columnas y validaciones de tensión.\n\nConsulta docs/PERSPECTIVE_BUILD.md para enlazar los campos de entrada y el botón Calcular.", "style": {"backgroundColor": "#E7F2EC", "borderRadius": "10px", "color": "#244B37", "fontSize": "16px", "padding": "22px", "whiteSpace": "pre-wrap"}}}
+  ]}
+}

@@ -1,0 +1,20 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {"defaultSize": {"width": 1366, "height": 768}},
+  "root": {
+    "type": "ia.container.flex",
+    "meta": {"name": "root"},
+    "props": {"direction": "column", "style": {"backgroundColor": "#F4F7F5", "minHeight": "100vh"}},
+    "children": [
+      {"type": "ia.display.label", "meta": {"name": "Header"}, "position": {"basis": "92px", "shrink": 0}, "props": {"text": "SUR18 SOLAR DESIGNER", "style": {"backgroundColor": "#0B5D3B", "color": "#FFFFFF", "fontSize": "28px", "fontWeight": 700, "padding": "28px"}}},
+      {"type": "ia.display.label", "meta": {"name": "Subtitle"}, "position": {"basis": "72px", "shrink": 0}, "props": {"text": "Dimensionamiento preliminar de sistemas fotovoltaicos para comercio e industria", "style": {"color": "#315044", "fontSize": "18px", "padding": "24px 28px"}}},
+      {"type": "ia.container.flex", "meta": {"name": "Cards"}, "position": {"grow": 1}, "props": {"wrap": "wrap", "style": {"gap": "20px", "padding": "28px"}}, "children": [
+        {"type": "ia.display.label", "meta": {"name": "Projects"}, "position": {"basis": "300px", "grow": 1}, "props": {"text": "PROYECTOS\n\nRegistra clientes, ubicación, coordenadas y revisiones de cada alternativa.", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #CFE2D7", "borderRadius": "10px", "color": "#183B2A", "fontSize": "17px", "padding": "24px", "whiteSpace": "pre-wrap"}}},
+        {"type": "ia.display.label", "meta": {"name": "Design"}, "position": {"basis": "300px", "grow": 1}, "props": {"text": "DISEÑO FV\n\nCalcula módulos, strings, inversores, energía anual y disposición preliminar.", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #CFE2D7", "borderRadius": "10px", "color": "#183B2A", "fontSize": "17px", "padding": "24px", "whiteSpace": "pre-wrap"}}},
+        {"type": "ia.display.label", "meta": {"name": "Reports"}, "position": {"basis": "300px", "grow": 1}, "props": {"text": "REPORTE PDF\n\nGenera un informe A4 de cuatro páginas y exporta ubicación a Google Earth.", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #CFE2D7", "borderRadius": "10px", "color": "#183B2A", "fontSize": "17px", "padding": "24px", "whiteSpace": "pre-wrap"}}}
+      ]},
+      {"type": "ia.display.label", "meta": {"name": "Footer"}, "position": {"basis": "44px", "shrink": 0}, "props": {"text": "Piloto SUR18 · Validar siempre con ingeniería de detalle, estructura y normativa local.", "style": {"backgroundColor": "#0B5D3B", "color": "#DDF2E5", "fontSize": "12px", "padding": "14px 28px"}}}
+    ]
+  }
+}

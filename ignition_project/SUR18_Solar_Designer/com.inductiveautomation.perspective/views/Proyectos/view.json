@@ -1,0 +1,10 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {"defaultSize": {"width": 1366, "height": 768}},
+  "root": {"type": "ia.container.flex", "meta": {"name": "root"}, "props": {"direction": "column", "style": {"backgroundColor": "#F4F7F5", "minHeight": "100vh", "padding": "28px", "gap": "18px"}}, "children": [
+    {"type": "ia.display.label", "meta": {"name": "Title"}, "position": {"basis": "46px"}, "props": {"text": "PROYECTOS", "style": {"color": "#0B5D3B", "fontSize": "28px", "fontWeight": 700}}},
+    {"type": "ia.display.label", "meta": {"name": "Demo"}, "position": {"basis": "150px"}, "props": {"text": "Proyecto de ejemplo\n\nSUR18-DEMO-001 · Planta Andina - Cochabamba\nIndustria Andina S.R.L. · -17.3935000, -66.1570000\nEstado: Piloto", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #CFE2D7", "borderRadius": "10px", "fontSize": "16px", "padding": "22px", "whiteSpace": "pre-wrap"}}},
+    {"type": "ia.display.label", "meta": {"name": "Instructions"}, "position": {"grow": 1}, "props": {"text": "Conecta la tabla de historial a la Named Query Projects/List.\n\nGuarda los datos de cliente y coordenadas con Projects/Save. Cada alternativa calculada se registra como una revisión en designs.", "style": {"backgroundColor": "#E7F2EC", "borderRadius": "10px", "color": "#244B37", "fontSize": "16px", "padding": "22px", "whiteSpace": "pre-wrap"}}}
+  ]}
+}

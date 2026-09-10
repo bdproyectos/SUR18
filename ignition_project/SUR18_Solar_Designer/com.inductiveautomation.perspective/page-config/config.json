@@ -1,0 +1,8 @@
+{
+  "pages": {
+    "/": {"title": "SUR18 Solar Designer", "viewPath": "Inicio"},
+    "/proyectos": {"title": "Proyectos", "viewPath": "Proyectos"},
+    "/diseno": {"title": "Diseño FV", "viewPath": "Diseno"}
+  },
+  "sharedDocks": {}
+}
