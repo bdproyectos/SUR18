@@ -2,7 +2,12 @@
   "pages": {
     "/": {"title": "SUR18 Solar Designer", "viewPath": "Inicio"},
     "/proyectos": {"title": "Proyectos", "viewPath": "Proyectos"},
-    "/diseno": {"title": "Diseño FV", "viewPath": "Diseno"}
+    "/diseno": {"title": "Diseño FV", "viewPath": "Diseno"},
+    "/datos": {"title": "Datos energéticos", "viewPath": "Datos"},
+    "/equipos": {"title": "Equipos y área", "viewPath": "Equipos"},
+    "/resultados": {"title": "Resultados", "viewPath": "Resultados"},
+    "/balance": {"title": "Balance mensual", "viewPath": "Balance"},
+    "/economia": {"title": "Economía", "viewPath": "Economia"}
   },
   "sharedDocks": {}
 }
