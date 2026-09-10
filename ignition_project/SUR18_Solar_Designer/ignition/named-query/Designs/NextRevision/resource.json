@@ -1,0 +1,1 @@
+{"scope":"DG","version":2,"restricted":false,"overridable":true,"files":["query.sql"],"attributes":{"type":"Query","enabled":true,"database":"SUR18_PV","parameters":[{"type":"Parameter","identifier":"project_id","sqlType":3}],"permissions":[{"zone":"","role":""}],"lastModification":{"actor":"SUR18","timestamp":"2026-09-10T00:00:00Z"}}}
